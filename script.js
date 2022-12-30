@@ -61,6 +61,11 @@ let projects = [
         title: "Lexer", 
         desc: "My lexer that still needs a lot of work",
     },
+    {
+        title: "RISC16", 
+        linkOverride: "/cpu.html",
+        desc: "RiSC 16 emulator",
+    },
     // {
     //     title: "idk", 
     //     link: "https://google.com",

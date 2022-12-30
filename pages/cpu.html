@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <script src="cpu.js"></script>
+</head>
+<body>
+    <table id="registers">
+
+    </table>
+    <br>
+    <button onclick="tick_once()">tick</button>
+    <button onclick="run_until_hlt()">run until halt</button>
+
+    <div>
+        <table>
+            <tr>
+                <th>inputs</th>
+                <th>outputs</th>
+            </tr>
+            <tr>
+                <td><ul id="inputs"></ul></td>
+                <td><ul id="outputs"></ul></td>
+            </tr>
+        </table>
+    </div>
+    <input id="input_val">
+    <button onclick="add_input()">input</button>
+    <ul id="instrs">
+
+    </ul>
+</body>
+</html>
