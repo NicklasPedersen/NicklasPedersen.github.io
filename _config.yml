@@ -1,1 +1,8 @@
 exclude: ['./README.md']
+
+jekyll-archives:
+  enabled: 
+    - cpu
+  layout: archive
+  permalinks:
+    cpu: /cpu/
